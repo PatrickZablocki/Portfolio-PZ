@@ -1,0 +1,28 @@
+[
+    {
+    "role": "Student by DCI ",
+    "organisation": "DCI",
+    "startDate": "Juli, 2023",
+    "endDate": "Juli 2024",
+    "experiences": ["Worked on Linux"],
+    "imageSrc": "data/History/DCI.png"
+    },
+    {
+    "role": "Customer Service",
+    "organisation": "Sitel GmbH (DAZN)",
+    "startDate": "April, 2022",
+    "endDate": "April, 2023",
+    "experiences": ["Worked on Ubuntu"],
+    "imageSrc": "data/History/Sitel.png"
+    },
+    {
+    "role": "Customer Service",
+    "organisation": "Mphasis",
+    "startDate": "Oktober, 2021",
+    "endDate": "Dezember, 2021",
+    "experiences": [
+        "Worked on Microsoft"
+    ],
+    "imageSrc": "data/History/Mphasis.png"
+    }
+]
