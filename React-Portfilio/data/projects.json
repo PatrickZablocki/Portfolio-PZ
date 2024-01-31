@@ -1,0 +1,26 @@
+[
+    {
+    "title": "Fitness Website ( First Project)",
+    "imageSrc": "public/project/project.png",
+    "description": "My first project, with a fitness studio website .",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/PatrickZablocki/Fitness-2.0-Version"
+    },
+    {
+    "title": "PC Customize Website",
+    "imageSrc": "public/project/project.png",
+    "description": "A website based on a PC site where you can buy the hardware.",
+    "skills": ["HTML", "SCSS", "Javascript"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/PatrickZablocki/Patricks-Shop"
+    },
+    {
+    "title": "Traveling Website",
+    "imageSrc": "public/project/project.png",
+    "description": "Website for people who like to go on vacation but also need action or just want to see the city.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/PatrickZablocki/Travel"
+    }
+]
