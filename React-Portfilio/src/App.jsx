@@ -1,5 +1,6 @@
 import styles from'./App.module.css';
 
+import {Contact} from "./components/Contact";
 import {Experience} from "./components/Experience";
 import {About} from "./components/About";
 import {Hero } from "./components/Hero";
@@ -14,6 +15,7 @@ function App() {
     <About />
     <Experience />
     <Projects />
+    <Contact />
   </div>;
   
 }
