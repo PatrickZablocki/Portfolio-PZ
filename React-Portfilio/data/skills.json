@@ -26,5 +26,9 @@
     {
     "title": "Tailwind",
     "imageSrc": "skills/Tailwind.png"
+    },
+    {
+    "title": "SCSS/SASS",
+    "imageSrc": "skills/scss.png"
     }
 ]
