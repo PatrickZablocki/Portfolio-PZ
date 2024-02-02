@@ -12,6 +12,8 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 
 .projects {
@@ -23,4 +25,12 @@
     justify-content: center;
     gap: 15px;
     width: 100%;
+}
+
+@media screen and (max-width: 830px) {
+    .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }

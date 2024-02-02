@@ -11,7 +11,7 @@
 }
 
 .title{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
@@ -31,9 +31,15 @@
 }
 
 .menuItems a {
-    font-size: 25px;
+    font-size: 1.563rem;
     color: var(--color-text);
     text-decoration: none;
+    
+}
+.menuItems li:hover{
+    transform:translateY(-5px);
+    transition: 0.5ms;
+    text-shadow: 15px 15px 15px black;
 }
 
 @media screen and (max-width:830px) {

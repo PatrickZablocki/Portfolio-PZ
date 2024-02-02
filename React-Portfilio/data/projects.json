@@ -1,16 +1,16 @@
 [
     {
-    "title": "Fitness Website ( First Project)",
+    "title": "Weather App",
     "imageSrc": "public/project/project.png",
-    "description": "My first project, with a fitness studio website .",
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "description": "My First Project with React.",
+    "skills": ["HTML", "CSS", "JavaScript","REACT"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/PatrickZablocki/Fitness-2.0-Version"
+    "source": "https://github.com/PatrickZablocki/Weather-React"
     },
     {
     "title": "PC Customize Website",
     "imageSrc": "public/project/project.png",
-    "description": "A website based on a PC site where you can buy the hardware.",
+    "description": "A website for PC where you can buy the hardware.",
     "skills": ["HTML", "SCSS", "Javascript"],
     "demo": "https://www.example.com",
     "source": "https://github.com/PatrickZablocki/Patricks-Shop"
@@ -18,7 +18,7 @@
     {
     "title": "Traveling Website",
     "imageSrc": "public/project/project.png",
-    "description": "Website for people who like to go on vacation but also need action or just want to see the city.",
+    "description": "Website for people who like to go on vacation.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com",
     "source": "https://github.com/PatrickZablocki/Travel"

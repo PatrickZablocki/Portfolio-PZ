@@ -4,7 +4,10 @@
     "organisation": "DCI",
     "startDate": "Juli, 2023",
     "endDate": "Juli 2024",
-    "experiences": ["Worked on Linux"],
+    "experiences": ["Worked on Linux",
+                    "Learned the processes for the Ubuntu terminal",
+                    "Frontend Learned",
+                    "Backend Learned"],
     "imageSrc": "data/History/DCI.png"
     },
     {
@@ -12,7 +15,8 @@
     "organisation": "Sitel GmbH (DAZN)",
     "startDate": "April, 2022",
     "endDate": "April, 2023",
-    "experiences": ["Worked on Ubuntu"],
+    "experiences": ["Worked on Ubuntu",
+                    "Help with questions about invoices"],
     "imageSrc": "data/History/Sitel.png"
     },
     {
@@ -21,8 +25,8 @@
     "startDate": "Oktober, 2021",
     "endDate": "Dezember, 2021",
     "experiences": [
-        "Worked on Microsoft"
-    ],
+        "Worked on Microsoft",
+        "Help with questions about invoices"],
     "imageSrc": "data/History/Mphasis.png"
     }
 ]

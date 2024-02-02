@@ -2,7 +2,6 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import {getImageUrl} from "../utils";
-// import HeroImage from "/public/Hero.jpeg";
 
 export const Hero = () => {
     return (
