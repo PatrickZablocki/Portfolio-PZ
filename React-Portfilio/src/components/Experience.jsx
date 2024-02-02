@@ -30,7 +30,7 @@ export const Experience = () => {
                     src={historyItem.imageSrc}
                     alt={`${historyItem.organisation} Logo`}
                 />
-                <div className={styles.historyItemDetails}>
+                <div className={styles.historyItemDetails} loading="lazy">
                     <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                     <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                     <ul>
@@ -43,6 +43,11 @@ export const Experience = () => {
             );
             })}
         </ul>
+        </div>
+        <div className={styles.CvBtnContainer}>
+        <a href="Document/Patrick_Zablocki_CV.pdf" download="CV" className={styles.CvBtn}>
+            Download CV    
+        </a>
         </div>
     </section>
     );

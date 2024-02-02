@@ -14,7 +14,7 @@ export const Hero = () => {
                     Contact Me
                     </a>
             </div>
-            <img src={getImageUrl("hero/Hero.jpeg")} alt="Hero Image of me" className= {`{styles.heroImg} ${styles.rounded}`}/>
+            <img src={getImageUrl("hero/Hero.jpeg")} alt="Hero Image of me" loading="lazy" className= {`{styles.heroImg} ${styles.rounded}`}/>
             <div className={StyleSheet.topBlur}/>
             <div className={StyleSheet.bottomBlur}/>
         </section>
