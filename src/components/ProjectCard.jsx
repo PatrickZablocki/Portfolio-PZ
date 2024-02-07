@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./ProjectCard.module.css";
 import {getImageUrl} from "../utils";
+import projects from "/data/projects.json";
 
 
 export const ProjectCard = ({ project : {title, imageSrc, description,skills, demo, source }

@@ -1,7 +1,7 @@
 [
     {
     "title": "Weather App",
-    "imageSrc": "public/project/project.png",
+    "imageSrc": "project/project.png",
     "description": "My First Project with React.",
     "skills": ["HTML", "CSS", "JavaScript","REACT"],
     "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
     },
     {
     "title": "PC Customize Website",
-    "imageSrc": "public/project/project.png",
+    "imageSrc": "project/project.png",
     "description": "A website for PC where you can buy the hardware.",
     "skills": ["HTML", "SCSS", "Javascript"],
     "demo": "https://www.example.com",
@@ -17,7 +17,7 @@
     },
     {
     "title": "Traveling Website",
-    "imageSrc": "public/project/project.png",
+    "imageSrc": "project/project.png",
     "description": "Website for people who like to go on vacation.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com",

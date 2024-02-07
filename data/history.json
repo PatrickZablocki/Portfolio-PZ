@@ -8,7 +8,7 @@
                     "Learned the processes for the Ubuntu terminal",
                     "Frontend Learned",
                     "Backend Learned"],
-    "imageSrc": "data/History/DCI.png"
+    "imageSrc": "history/DCI.png"
     },
     {
     "role": "Customer Service",
@@ -17,7 +17,7 @@
     "endDate": "April, 2023",
     "experiences": ["Worked on Ubuntu",
                     "Help with questions about invoices"],
-    "imageSrc": "data/History/Sitel.png"
+    "imageSrc": "history/Sitel.png"
     },
     {
     "role": "Customer Service",
@@ -27,6 +27,6 @@
     "experiences": [
         "Worked on Microsoft",
         "Help with questions about invoices"],
-    "imageSrc": "data/History/Mphasis.png"
+    "imageSrc": "history/Mphasis.png"
     }
 ]
