@@ -2,7 +2,9 @@ import React from "react";
 import styles from "./Experience.module.css";
 
 import data from "/data/skills.json";
-import History from "/data/History/history.json";
+import History from "/data/history.json";
+
+
 
 
 export const Experience = () => {
