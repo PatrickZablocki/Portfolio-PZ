@@ -16,11 +16,20 @@
     "source": "https://github.com/PatrickZablocki/Patricks-Shop"
     },
     {
-    "title": "Traveling Website",
+    "title": "Photo Studio",
     "imageSrc": "project/project.png",
-    "description": "Website for people who like to go on vacation.",
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "description": "Website for people to make Photos",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/PatrickZablocki/Travel"
+    "source": "https://github.com/PatrickZablocki/Photo-Studio"
+    },
+    {
+    "title": "Jira Ticket Clone",
+    "imageSrc": "project/project.png",
+    "description": "This is a Group Project from Jira",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/PatrickZablocki/Jira_clone"
     }
+
 ]
