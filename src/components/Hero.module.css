@@ -55,13 +55,14 @@
 }
 
 .heroImg{
-    width: 50%;
+    width: 100%;
     height: auto;
     z-index: 1;
 }
 
 .rounded {
     border-radius: 50%;
+    
 
     animation-name: floating;
     animation-duration: 3s;
@@ -116,5 +117,12 @@
 
     .content {
         align-items: center;
+    }
+    .rounded{
+        width: 100% !important;
+    }
+    .topBlur,
+    .bottomBlur{
+        display: none;
     }
 }
