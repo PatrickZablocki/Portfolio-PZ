@@ -43,7 +43,9 @@ export const About = () => {
                         <h3>Backend Devoloper</h3>
                         <p>I'm a Backend Devoloper </p><br/>
                         <h4>In my course I learned.</h4><br/>
-                        <p>Still learning</p>
+                        <p>- Express.js<br/>
+                        - MongoDB
+                        </p>
                     </div>
                     </li>
                 </ul>
