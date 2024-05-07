@@ -34,5 +34,9 @@
     {
     "title": "TypeScript",
     "imageSrc":"skills/Typescript.png"
+    },
+    {
+    "title":"MongoDB",
+    "imageSrc":"skills/mongodb-icon-2.svg"
     }
 ]
