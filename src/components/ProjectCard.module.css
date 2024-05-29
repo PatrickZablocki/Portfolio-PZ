@@ -59,3 +59,9 @@ border-radius: 100px;
 background: var(--color-primary);
 padding: 1px 22px;
 }
+@media screen and (max-width: 830px){
+
+    .container {
+        max-width: 100%;
+    }
+}
