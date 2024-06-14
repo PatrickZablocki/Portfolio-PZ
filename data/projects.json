@@ -2,32 +2,32 @@
     {
     "title": "Weather App",
     "imageSrc": "project/project.png",
-    "description": "My First Project with React.",
+    "description": "My first React project, it's not perfect but it reminds me of where I started.",
     "skills": ["HTML", "CSS", "JavaScript","REACT"],
     "demo": "https://www.example.com",
     "source": "https://github.com/PatrickZablocki/Weather-React"
     },
     {
-    "title": "PC Customize Website",
+    "title": "Social Network Site : Pixel Pioneers",
     "imageSrc": "project/project.png",
-    "description": "A website for PC where you can buy the hardware.",
-    "skills": ["HTML", "SCSS", "Javascript"],
+    "description": "Pixel Pioneers is a specialized social network site for professionals and enthusiasts in the IT.",
+    "skills": ["REACT", "CSS", "Javascript", "MongoDB", "Node.JS"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/PatrickZablocki/Patricks-Shop"
+    "source": "https://github.com/PatrickZablocki/Webkids-Webside"
     },
     {
-    "title": "Photo Studio",
+    "title": "Spotify Clone",
     "imageSrc": "project/project.png",
-    "description": "Website for people to make Photos",
-    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "description": "Spotify Clone is a music platform designed specifically for enthusiasts, mimicking the user-friendly interface of Spotify.",
+    "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/PatrickZablocki/Photo-Studio"
+    "source": "https://github.com/PatrickZablocki/Spotify"
     },
     {
     "title": "Jira Ticket Clone",
     "imageSrc": "project/project.png",
-    "description": "This is a Group Project from Jira",
-    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "description": "Jira Ticket Clone: A project management tool that replicates the core functionalities of Jira for efficient task and project tracking.",
+    "skills": ["React", "JavaScript", "CSS", "Node.JS"],
     "demo": "https://www.example.com",
     "source": "https://github.com/PatrickZablocki/Jira_clone"
     }
