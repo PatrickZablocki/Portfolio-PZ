@@ -8,11 +8,11 @@
     "source": "https://github.com/PatrickZablocki/Weather-React"
     },
     {
-    "title": "Social Network Site : Pixel Pioneers",
+    "title": "Predecessor Quiz",
     "imageSrc": "project/project.png",
-    "description": "Pixel Pioneers is a specialized social network site for professionals and enthusiasts in the IT.",
-    "skills": ["REACT", "CSS", "Javascript", "MongoDB", "Node.JS"],
-    "demo": "https://www.example.com",
+    "description": "Quiz Site for Predecessor a MOBA Game",
+    "skills": ["CSS", "Javascript", "HTML"],
+    "demo": "https://predecessor-quiz.vercel.app/",
     "source": "https://github.com/PatrickZablocki/Webkids-Webside"
     },
     {
