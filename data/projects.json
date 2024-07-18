@@ -17,18 +17,18 @@
     },
     {
     "title": "Spotify Clone",
-    "imageSrc": "project/project.png",
+    "imageSrc": "project/Spotify_Project.png",
     "description": "Spotify Clone is a music platform designed specifically for enthusiasts, mimicking the user-friendly interface of Spotify.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://www.example.com",
+    "demo": "https://spotify-three-lilac.vercel.app/",
     "source": "https://github.com/PatrickZablocki/Spotify"
     },
     {
     "title": "Jira Ticket Clone",
-    "imageSrc": "project/project.png",
+    "imageSrc": "project/Jira_Project.png",
     "description": "Jira Ticket Clone: A project management tool that replicates the core functionalities of Jira for efficient task and project tracking.",
     "skills": ["React", "JavaScript", "CSS", "Node.JS"],
-    "demo": "https://www.example.com",
+    "demo": "https://jira-clone-nu-seven.vercel.app/",
     "source": "https://github.com/PatrickZablocki/Jira_clone"
     }
 
