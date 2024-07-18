@@ -9,7 +9,7 @@
     },
     {
     "title": "Predecessor Quiz",
-    "imageSrc": "project/project.png",
+    "imageSrc": "project/Predecessor_Project.png",
     "description": "Quiz Site for Predecessor a MOBA Game",
     "skills": ["CSS", "Javascript", "HTML"],
     "demo": "https://predecessor-quiz.vercel.app/",
