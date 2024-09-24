@@ -47,7 +47,7 @@ export const Experience = () => {
         </ul>
         </div>
         <div className={styles.ZertifikatContainer}>
-            <a href="Document/Zertifikat_Zablocki_Patrick.pdf" download="PatrickZablocki_Zertifikat" className={styles.ZertiBtn}>
+            <a href="Document/Zertifikat_Zablocki_Patrick_DCI.pdf" download="PatrickZablocki_Zertifikat" className={styles.ZertiBtn}>
                 Download Zertifikat
             </a>
         </div>
