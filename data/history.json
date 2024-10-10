@@ -1,9 +1,21 @@
 [
     {
+        "role": "Customer Service",
+        "organisation": "Deutsche Postcode Lotterie",
+        "startDate": "Oktober, 2024",
+        "endDate": "Currently Working Here",
+        "experiences": [
+            "Handled customer inquiries via phone, mail, and email",
+            "Provided support using Microsoft tools",
+            "Assisted customers with questions regarding invoices"
+        ],
+        "imageSrc": "history/Deutsche-Postcode-Lotterie.png"
+        },
+    {
     "role": "Student by DCI ",
     "organisation": "DCI",
     "startDate": "Juli, 2023",
-    "endDate": "Juli 2024",
+    "endDate": "September 2024",
     "experiences": ["Worked on Linux",
                     "Learned the processes for the Ubuntu terminal",
                     "Frontend Learned",
@@ -18,15 +30,5 @@
     "experiences": ["Worked on Ubuntu",
                     "Help with questions about invoices"],
     "imageSrc": "history/Sitel.png"
-    },
-    {
-    "role": "Customer Service",
-    "organisation": "Mphasis (Klarna)",
-    "startDate": "Oktober, 2021",
-    "endDate": "Dezember, 2021",
-    "experiences": [
-        "Worked on Microsoft",
-        "Help with questions about invoices"],
-    "imageSrc": "history/Mphasis.png"
     }
 ]
