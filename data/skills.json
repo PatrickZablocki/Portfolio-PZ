@@ -38,5 +38,9 @@
     {
     "title":"MongoDB",
     "imageSrc":"skills/mongodb-icon-2.svg"
+    },
+    {
+    "title":"Python",
+    "imageSrc":"skills/Python.png"
     }
 ]
