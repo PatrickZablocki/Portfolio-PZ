@@ -35,5 +35,6 @@ export const ProjectCard = ({ project : {title, imageSrc, description,skills, de
         </a>
         </div>
     </div>
+
     );
 };

@@ -1,36 +1,38 @@
-@import "../vars.css";
-
+/* Hauptcontainer für die Projekte */
 .container {
-    margin-top: 76px;
-    color: var(--color-text);
-    margin-left: 10%;
-    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
 }
 
-.title {
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+/* Sektionen für jede Kategorie */
+.categorySection {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.projects {
-    margin-top: 37px;
+/* Titel der Kategorien */
+.categoryTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+/* Grid-Layout für die Projektkarten */
+.projectsGrid {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
+    gap: 20px;
+    color: #fff;
 }
 
+/* Media Query für eine bessere Darstellung auf kleinen Bildschirmen */
 @media screen and (max-width: 830px) {
-    .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .projectsGrid {
+        flex-direction: column;
+        align-items: center;
     }
 }
