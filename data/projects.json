@@ -36,10 +36,11 @@
     "category":"frontend"
     },
     {
-    "title":"Coming Soon",
-    "imageSrc": "project/project.png",
+    "title":"PokeDex (PokemonDex)",
+    "imageSrc": "project/Backend.png",
     "demo": "https://www.example.com",
-    "skills": [],
+    "skills": ["PHP", "Laravel","SQLlite" ],
+    "source":"https://github.com/PatrickZablocki/Backend_PokemonDex",
     "category":"backend"
     },
     {
