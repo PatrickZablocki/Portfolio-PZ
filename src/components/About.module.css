@@ -2,108 +2,177 @@
 
 .container {
     position: relative;
-    background-color: rgba(12,12,12, 0.6);
+    background-color: var(--color-secondary); /* Verwende die dunklere Hintergrundfarbe */
     border-radius: 15px;
-    padding: 73px;
-    margin-top: 129px;
+    padding: 50px;
+    margin-top: 100px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sanfte Schatten für mehr Tiefe */
 }
 
 .title {
     color: var(--color-text);
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     font-weight: 700;
-    letter-spacing: 1.75px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 25px;
+    text-align: center; /* Center Title */
 }
 
 .content {
     display: flex;
-    flex-direction:row;
+    justify-content: center;
     align-items: center;
+    position: relative;
+    gap: 20px;
 }
-.contentContainer{
+
+.carousel {
+    position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    margin-inline: 50px;    
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.1); /* Sanfter Hintergrund für den Carousel-Bereich */
 }
 
-.aboutImage {
-    width:35%;
-    height: 35%;
+.slideContainer {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
-.aboutItems {
+.slide {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: var(--color-dark); /* Dunkler Hintergrund für die Slides */
+    border-radius: 15px;
+    margin: 0 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sanfte Schatten für die Slides */
     color: var(--color-text);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 }
 
-.aboutItem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 20px;
-    list-style: none;
-    padding: 25px;
-    background-image: linear-gradient(
-        90deg,
-        rgba(165, 215, 232, 0.42) 0%,
-        rgba(255,255,255, 0) 100%);
-        background-size: 0 100%;
-        background-repeat: no-repeat;
-        transition: 0.4s;
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
 }
 
-.aboutItem:hover {
-    background-size: 100% 100%;
+.text {
+    text-align: center;
 }
 
-.aboutItem h3 {
+h3 {
     font-size: 2.5rem;
     font-weight: 600;
+    color: var(--color-primary); /* Blau für die Überschrift */
 }
 
-.aboutItem p {
+p, ul {
     font-size: 1.5rem;
+    color: var(--color-text);
 }
-.aboutItem h4{
+
+h4 {
     font-size: 1.8rem;
+    color: var(--color-primary); /* Blau für die Unterüberschrift */
 }
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.prevButton {
+    left: 10px;
+}
+
+.nextButton {
+    right: 10px;
+}
+
 @media screen and (max-width: 830px) {
     .container {
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 20px;
     }
 
-    .content {
+    .carousel {
         flex-direction: column;
+        align-items: center; /* Damit der Inhalt mittig auf mobilen Geräten bleibt */
+        padding-bottom: 30px; /* Etwas Abstand am unteren Rand */
     }
-    .contentContainer {
-        flex-direction: column;
+
+    .slide {
+        width: 100%; /* Vermeidet, dass die Slides auf mobilen Geräten zu schmal werden */
+        margin: 10px 0; /* Etwas Abstand zwischen den Slides */
+        padding: 20px;
+    }
+
+    .text {
+        padding: 15px;
+        text-align: center; /* Damit der Text auch auf kleinen Geräten zentriert wird */
+    }
+
+    h3 {
+        font-size: 1.8rem; /* Etwas kleinere Schriftgröße */
+        margin-bottom: 10px;
+    }
+
+    p, ul, h4 {
+        font-size: 1.4rem; /* Kleinere Schriftgröße */
+        line-height: 1.6; /* Bessere Lesbarkeit auf kleinen Bildschirmen */
+    }
+
+    ul {
+        padding-left: 20px; /* Etwas Abstand für die Aufzählung */
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 15px; /* Weniger Abstand zur Überschrift */
+    }
+
+    button {
+        padding: 12px;
+        font-size: 1.5rem;
+        top: 50%; /* Zentriert den Button auf kleinen Geräten */
+        transform: translateY(-50%);
+    }
+
+    .prevButton, .nextButton {
+        font-size: 2rem; /* Kleinere Buttons auf mobilen Geräten */
     }
     
-    .aboutImage {
-        display: none;
+    .slideContainer {
+        transition: transform 0.4s ease-in-out; /* Etwas schnellerer Übergang für mobile Geräte */
     }
 
-    .aboutItems {
-        margin-top: 29px;
-    }
-
-    .aboutItem {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .title{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .carousel .slide {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Leichte Schattierung für mobile Slides */
     }
 }
+
