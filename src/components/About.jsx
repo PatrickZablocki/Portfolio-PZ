@@ -31,7 +31,7 @@ export const About = () => {
                         </p>
                         <h4>Knowledge that I have acquired myself</h4><br/>
                         <p>-Tailwind<br/>
-                            -TypeScript
+                            -TypeScript (Formerly used)
                         </p>
                     </div>
                     </li>
@@ -46,6 +46,13 @@ export const About = () => {
                         <p>
                         - Express.js<br/>
                         - MongoDB
+                        </p><br/>
+                        <h4>Knowledge that I have acquired myself</h4><br/>
+                        <p>
+                            -PHP<br/>
+                            -Python<br/>
+                            -Laravel<br/>
+                            -SQLite<br/>
                         </p>
                     </div>
                     </li>
