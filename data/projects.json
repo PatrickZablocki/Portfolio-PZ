@@ -1,11 +1,11 @@
 [
     {
-    "title": "Weather App",
+    "title": "Memory",
     "imageSrc": "project/project.png",
-    "description": "not available",
-    "skills": ["HTML", "CSS", "JavaScript","REACT"],
+    "description": "Memory Game",
+    "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/PatrickZablocki/Weather-React",
+    "source": "https://github.com/PatrickZablocki/Memory",
     "category": "frontend"
     },
     {
