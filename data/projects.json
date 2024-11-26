@@ -1,17 +1,17 @@
 [
     {
     "title": "Memory",
-    "imageSrc": "project/project.png",
-    "description": "Memory Game",
+    "imageSrc": "project/MemoryGame.png",
+    "description": "A fun and interactive memory game where players flip cards to find matching pairs while improving their concentration and memory skills. The game features a timer, move counter, and engaging animations for a dynamic user experience.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://www.example.com",
+    "demo": "https://memory-kcygifvaq-patrickzablockis-projects.vercel.app/",
     "source": "https://github.com/PatrickZablocki/Memory",
     "category": "frontend"
     },
     {
     "title": "Predecessor Quiz",
     "imageSrc": "project/Predecessor_Project.png",
-    "description": "Quiz Site for Predecessor a MOBA Game",
+    "description": "A Quiz site for Predecessor, a MOBA game, where players guess the champion's name or abilities based on given clues. Points are awarded for correct answers, and players can enjoy a second mode where they identify the champion's abilities, adding an extra layer of challenge.",
     "skills": ["CSS", "Javascript", "HTML"],
     "demo": "https://predecessor-quiz.vercel.app/",
     "source": "https://github.com/PatrickZablocki/Predecessor-Quiz",
