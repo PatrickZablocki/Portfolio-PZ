@@ -4,7 +4,7 @@
     "imageSrc": "project/MemoryGame.png",
     "description": "A fun and interactive memory game where players flip cards to find matching pairs while improving their concentration and memory skills. The game features a timer, move counter, and engaging animations for a dynamic user experience.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://memory-kcygifvaq-patrickzablockis-projects.vercel.app/",
+    "demo": "https://memory-three-red.vercel.app/",
     "source": "https://github.com/PatrickZablocki/Memory",
     "category": "frontend"
     },
