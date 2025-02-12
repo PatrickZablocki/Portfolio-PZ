@@ -52,7 +52,7 @@ export const Experience = () => {
             </a>
         </div>
         <div className={styles.CvBtnContainer}>
-        <a href="Document/CV_Patrick_Zablocki.pdf" download="PatrickZablocki_CV" className={styles.CvBtn}>
+        <a href="Document/Patrick_Zablocki_CV.pdf" download="PatrickZablocki_CV" className={styles.CvBtn}>
             Download CV    
         </a>
         </div>
