@@ -32,15 +32,7 @@
     "imageSrc": "skills/scss.png"
     },
     {
-    "title": "PHP",
-    "imageSrc":"skills/PHP.png"
-    },
-    {
     "title":"MongoDB",
     "imageSrc":"skills/mongodb-icon-2.svg"
-    },
-    {
-    "title":"Python",
-    "imageSrc":"skills/Python.png"
     }
 ]

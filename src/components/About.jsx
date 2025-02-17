@@ -19,12 +19,12 @@ export const About = () => {
         {
             title: "Backend Developer",
             skills: ["Express.js", "MongoDB"],
-            acquiredSkills: ["PHP", "Python", "SQLite", "NodeJS"],
+            acquiredSkills: ["NodeJS"],
         },
         {
             title:"Frameworks",
             skills: ["React", "Bootstrap"],
-            acquiredSkills: ["Laravel", "Tailwind"]
+            acquiredSkills: ["Tailwind"]
         },
         {
             title: "Tools",
@@ -82,7 +82,7 @@ export const About = () => {
                             <div className={styles.slide} key={index}>
                                 <div className={styles.text}>
                                     <h3>{slide.title}</h3>
-                                    {/* Dynamischer Text hier */}
+                                    {}
                                     <p>{getIntroText(slide.title)}</p>
                                     <h4>In my course I learned:</h4>
                                     <ul>
