@@ -12,24 +12,21 @@ export const About = () => {
             title: "Frontend Developer",
             skills: [
                 "HTML & CSS & (SCSS/SASS)",
-                "JavaScript"
+                "JavaScript","React"
             ],
-            acquiredSkills: ["TypeScript (Formerly used)"],
         },
         {
             title: "Backend Developer",
-            skills: ["Express.js", "MongoDB"],
-            acquiredSkills: ["NodeJS"],
+            skills: ["Express.js", "MongoDB","NodeJS","NextJS"],
         },
         {
             title:"Frameworks",
-            skills: ["React", "Bootstrap"],
+            skills: ["Tailwind", "Bootstrap"],
             acquiredSkills: ["Tailwind"]
         },
         {
             title: "Tools",
-            skills: ["Git", "VS Code", "NPM", "Linux", "Vite", "GitHub"],
-            acquiredSkills: ["MacOS", "XCode", "Vercel"]
+            skills: ["Git", "VS Code", "NPM", "Linux", "Vite", "GitHub","MacOS", "XCode", "Vercel"],
         }
     ];
 
@@ -50,22 +47,22 @@ export const About = () => {
     const handleNext = () => {
         setCurrentSlide((prev) => (prev + 1) % slides.length);
     };
-
-    // Dynamisch angepasster Text basierend auf dem Titel
-    const getIntroText = (title) => {
-        switch(title) {
-            case "Frontend Developer":
-                return "I'm a frontend developer with skills in building user interfaces.";
-            case "Backend Developer":
-                return "I'm a backend developer focused on server-side technologies.";
-            case "Frameworks":
-                return "I have experience with various frameworks to streamline development.";
-            case "Tools":
-                return "I use various tools to enhance productivity and version control.";
-            default:
-                return "I'm a passionate developer continuously learning new technologies.";
-        }
-    };
+ // Dynamisch angepasster Text basierend auf dem Titel
+ const getIntroText = (title) => {
+    switch(title) {
+        case "Frontend Developer":
+            return "I'm a frontend developer with skills in building user interfaces.";
+        case "Backend Developer":
+            return "I'm a backend developer focused on server-side technologies.";
+        case "Frameworks":
+            return "I have experience with various frameworks to streamline development.";
+        case "Tools":
+            return "I use various tools to enhance productivity and version control.";
+        default:
+            return "I'm a passionate developer continuously learning new technologies.";
+    }
+};
+   
 
     return (
         <section className={styles.container} id="about">
@@ -90,12 +87,7 @@ export const About = () => {
                                             <li key={idx}>{skill}</li>
                                         ))}
                                     </ul>
-                                    <h4>Knowledge that I have acquired myself:</h4>
-                                    <ul>
-                                        {slide.acquiredSkills.map((skill, idx) => (
-                                            <li key={idx}>{skill}</li>
-                                        ))}
-                                    </ul>
+                                    
                                 </div>
                             </div>
                         ))}

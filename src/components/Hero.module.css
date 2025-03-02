@@ -20,7 +20,7 @@
 }
 
 .title {
-    font-size: 4.5rem;
+    font-size: 2rem;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
@@ -30,12 +30,14 @@
     );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    text-align: center; 
 }
 
 .description {
-    font-size: 1.875rem;
+    font-size: 1.25rem;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+    text-align: center;
 }
 
 .contactBtn {
@@ -43,7 +45,7 @@
     background-color: var(--color-primary);
     color: var(--color-text);
     border-radius: 100px;
-    font-size: 1.875rem;
+    font-size: 1.25rem;
     font-weight: 600;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0,0,0, 0.25);
@@ -55,15 +57,13 @@
 }
 
 .heroImg{
-    width: 100%;
+    width: 40%;
     height: auto;
     z-index: 1;
 }
 
 .rounded {
     border-radius: 50%;
-    
-
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -71,22 +71,21 @@
 }
 
 @keyframes floating {
-        0% {
-            transform: translate(0, 0px);
-        }
-        50% {
-            transform: translate(0, 10px);
-        }
-        100% {
-            transform: translate(0, -0px);
-        }
+    0% {
+        transform: translate(0, 0px);
     }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
 
 .topBlur {
     position: absolute;
     width: 50vw;
     height: 50vw;
-    min-width: 350px;
     min-width: 350px;
     top: -128px;
     left: -10vw;
@@ -101,7 +100,6 @@
     width: 70vw;
     height: 50vw;
     min-width: 350px;
-    min-width: 250px;
     top: 246px;
     right: -25vw;
     border-radius: 764px;
@@ -110,7 +108,7 @@
     z-index: 0;
 }
 
-@media screen and (max-width:830px) {
+@media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
     }
@@ -118,11 +116,11 @@
     .content {
         align-items: center;
     }
-    .rounded{
+    .rounded {
         width: 100% !important;
     }
     .topBlur,
-    .bottomBlur{
+    .bottomBlur {
         display: none;
     }
 }

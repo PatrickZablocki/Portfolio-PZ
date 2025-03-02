@@ -34,21 +34,6 @@
     "demo": "https://jira-clone-nu-seven.vercel.app/",
     "source": "https://github.com/PatrickZablocki/Jira_clone",
     "category":"frontend"
-    },
-    {
-    "title":"PokeDex (PokemonDex)",
-    "imageSrc": "project/Backend.png",
-    "demo": "https://www.example.com",
-    "skills": ["PHP", "Laravel","SQLlite" ],
-    "source":"https://github.com/PatrickZablocki/Backend_PokemonDex",
-    "category":"backend"
-    },
-    {
-    "title":"Coming Soon",
-    "imageSrc":"project/project.png",
-    "demo":"https://www.example.com",
-    "skills":[],
-    "category":"fullstack"
     }
 
 ]
