@@ -1,5 +1,19 @@
 [
     {
+        "role": "IT Support First Level",
+        "organisation": "Allgeier IT Business Services GmbH",
+        "startDate": "March, 2025",
+        "endDate": "Currently",
+        "experiences": [
+            "Qualified creation, editing, and resolution of incidents/requests",
+            "Support for IT users in hardware and software environments (e.g., Windows client, Outlook, intranet, internet, hardware, and network)",
+            "Forwarding specific issues to the downstream support",
+            "Documentation in the corresponding systems and knowledge databases",
+            "Utilization of the knowledge database"
+        ],
+        "imageSrc": "history/Allgeier-Public_Share-Image.png"
+        },
+    {
         "role": "Customer Service",
         "organisation": "Deutsche Postcode Lotterie",
         "startDate": "Oktober, 2024",
@@ -13,7 +27,7 @@
         },
     {
     "role": "Student by DCI ",
-    "organisation": "DCI",
+    "organisation": "Digital Career Institute",
     "startDate": "Juli, 2023",
     "endDate": "September 2024",
     "experiences": ["Worked on Linux",

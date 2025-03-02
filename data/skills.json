@@ -1,38 +1,50 @@
 [
     {
     "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "skills/01-html5.svg"
     },
     {
     "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "skills/02-css3.svg"
+    },
+    {
+    "title": "JavaScript",
+    "imageSrc": "skills/03-javascript.svg"
     },
     {
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/06-react.svg"
     },
     {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "title": "NextJS",
+    "imageSrc": "skills/07-nextjs.svg"
     },
     {
-    "title": "Javascript",
-    "imageSrc": "skills/JavaScript.png"
-    },
-    {
-    "title": "Bootstrap",
-    "imageSrc": "skills/Bootstrap.png"
+    "title": "NodeJS",
+    "imageSrc": "skills/08-nodejs.svg"
     },
     {
     "title": "Tailwind",
-    "imageSrc": "skills/Tailwind.png"
+    "imageSrc": "skills/12-tailwind.svg"
     },
     {
-    "title": "SCSS/SASS",
-    "imageSrc": "skills/scss.png"
+    "title": "Bootstrap",
+    "imageSrc": "skills/Bootstrap_logo.svg.png"
     },
     {
-    "title":"MongoDB",
-    "imageSrc":"skills/mongodb-icon-2.svg"
+    "title":"SASS/SCSS",
+    "imageSrc":"skills/10-sass.svg"
+    },
+    {
+        "title":"MongoDB",
+        "imageSrc":"skills/15-mongodb.svg"
+    },
+    {
+        "title":"Git",
+        "imageSrc":"skills/16-git.svg"
+    },
+    {
+        "title":"VsCode",
+        "imageSrc":"skills/17-vscode.svg"
     }
 ]
