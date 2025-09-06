@@ -130,10 +130,30 @@ button.nextButton {
     button.prevButton, button.nextButton { font-size: 1.5rem; padding: 10px; }
 }
 
-@media (max-width: 480px) {
-    .container { padding: 30px 10px; }
+@media (max-width: 430px) {
+    .container { padding: 25px 10px; }
     h3 { font-size: 1.4rem; }
     h4 { font-size: 1.2rem; }
     p, ul { font-size: 0.95rem; }
     .icon { width: 40px; height: 40px; margin-bottom: 15px; }
+
+    /* Buttons unten statt seitlich */
+    button.prevButton,
+    button.nextButton {
+        top: auto;
+        bottom: 10px;
+        transform: translateY(0);
+        font-size: 1.2rem;
+        padding: 8px 10px;
+    }
+    .prevButton { left: 30%; }
+    .nextButton { right: 30%; }
+
+    /* Textbereich größer für kleine Screens */
+    .slide {
+        padding: 20px;
+    }
+    ul {
+        padding-left: 15px;
+    }
 }
