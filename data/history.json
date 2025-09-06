@@ -1,41 +1,46 @@
 [
     {
-        "role": "IT Support First Level",
-        "organisation": "Allgeier IT Business Services GmbH",
-        "startDate": "March, 2025",
-        "endDate": "June, 2025",
-        "experiences": [
-            "Qualified creation, editing, and resolution of incidents/requests",
-            "Support for IT users in hardware and software environments (e.g., Windows client, Outlook, intranet, internet, hardware, and network)",
-            "Forwarding specific issues to the downstream support",
-            "Documentation in the corresponding systems and knowledge databases",
-            "Utilization of the knowledge database"
-        ],
-        "imageSrc": "history/Allgeier-Public_Share-Image.png"
-        },
+    "role": "IT Helpdesk Specialist",
+    "organisation": "Cancom",
+    "startDate": "August 2025",
+    "endDate": "Current",
+    "experiences": [
+        "Provide IT support for internal users, covering hardware, software, and network issues",
+        "Manage user accounts, permissions, and passwords using Active Directory and PowerShell",
+        "Troubleshoot Microsoft Teams, printers, Windows OS, and other applications",
+        "Handle customer inquiries via phone, email, and ticketing systems"
+    ],
+    "imageSrc": "history/Cancom.png"
+}
+,
     {
-        "role": "Customer Service",
-        "organisation": "Deutsche Postcode Lotterie",
-        "startDate": "Oktober, 2024",
-        "endDate": "November 2024",
-        "experiences": [
-            "Handled customer inquiries via phone, mail, and email",
-            "Provided support using Microsoft tools",
-            "Assisted customers with questions regarding invoices"
-        ],
-        "imageSrc": "history/Deutsche-Postcode-Lotterie.png"
-        },
+    "role": "IT Support First Level",
+    "organisation": "Allgeier IT Business Services GmbH",
+    "startDate": "March 2025",
+    "endDate": "June 2025",
+    "experiences": [
+        "Create, edit, and resolve IT incidents/requests",
+        "Support users with hardware and software issues (Windows, Outlook, network devices)",
+        "Escalate complex issues to downstream support",
+        "Document processes and solutions in knowledge databases"
+    ],
+    "imageSrc": "history/Allgeier-Public_Share-Image.png"
+}
+,
     {
-    "role": "Student by DCI ",
+    "role": "Student – Web Development",
     "organisation": "Digital Career Institute",
-    "startDate": "Juli, 2023",
+    "startDate": "July 2023",
     "endDate": "September 2024",
-    "experiences": ["Worked on Linux",
-                    "Learned the processes for the Ubuntu terminal",
-                    "Frontend Learned",
-                    "Backend Learned"],
+    "experiences": [
+        "Gained experience with Linux and Ubuntu terminal commands",
+        "Developed Frontend skills (HTML, CSS, JavaScript, React)",
+        "Learned Backend development (Node.js, Express, MongoDB)",
+        "Worked on full-stack projects and version control using Git"
+    ],
     "imageSrc": "history/DCI.png"
-    },
+}
+,
     {
     "role": "Customer Service",
     "organisation": "Sitel GmbH (DAZN)",
