@@ -102,8 +102,8 @@
     min-width: 350px;
     top: 246px;
     border-radius: 764px;
-    background: rgba(25,55,109, 0.7);
-    filter: blur(100px);
+    /* background: rgba(25,55,109, 0.7);
+    filter: blur(100px); */
     z-index: 0;
 }
 

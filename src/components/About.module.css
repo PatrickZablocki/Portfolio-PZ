@@ -1,16 +1,14 @@
 @import "../vars.css";
 
-/* ===== Container ===== */
 .container {
     max-width: 1200px;
     margin: 100px auto 50px auto;
     padding: 50px 20px;
     border-radius: 15px;
     background: var(--color-secondary);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1); /* leichter Schatten */
     overflow: hidden;
     position: relative;
-    z-index: 1;
 }
 
 .title {
@@ -18,136 +16,82 @@
     font-size: 2.5rem;
     color: var(--color-text);
     font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 40px;
 }
 
-/* ===== Carousel ===== */
+/* Carousel Wrapper */
 .carousel {
-    display: flex;
-    width: 100%;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 
+/* Desktop: show all 4 slides */
 .slideContainer {
     display: flex;
-    gap: 15px;
-    transition: transform 0.5s ease-in-out;
+    gap: 20px;
 }
 
 .slide {
-    flex: 0 0 auto; 
-    width: 90%; 
-    max-width: 400px; 
+    flex: 1 1 calc(25% - 15px); /* 4 Cards pro Row */
     background: var(--color-dark);
     color: var(--color-text);
     border-radius: 15px;
     padding: 2rem;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 0 auto; /* zentriert die Card */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* leichter Schatten, kein "Nebel" */
+    text-align: center;
 }
 
-.slide:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-
-.text { text-align: center; }
-
-h3 { font-size: 2rem; color: var(--color-primary); margin-bottom: 1rem; }
-p { font-size: 1.2rem; line-height: 1.6; margin-bottom: 1rem; }
-h4 { font-size: 1.5rem; margin-top: 1rem; margin-bottom: 0.5rem; color: var(--color-primary); }
-
-ul { font-size: 1.2rem; line-height: 1.6; color: var(--color-text); padding-left: 20px; text-align: left; }
-.icon { width: 50px; height: 50px; margin-bottom: 20px; }
-
-/* ===== Buttons ===== */
+/* Buttons hidden on desktop */
 button.prevButton,
 button.nextButton {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    font-size: 2rem;
-    padding: 12px;
-    cursor: pointer;
-    border-radius: 50%;
-    z-index: 2;
+    display: none;
 }
 
-.prevButton { left: 10px; }
-.nextButton { right: 10px; }
-
-/* ===== Responsive ===== */
-@media (max-width: 1024px) {
-    .container { padding: 40px 15px; }
-    h3 { font-size: 1.8rem; }
-    h4 { font-size: 1.4rem; }
-    p, ul { font-size: 1.1rem; }
-}
-
+/* Responsive Mobile */
 @media (max-width: 768px) {
-    .container { padding: 30px 10px; }
-    h3 { font-size: 1.6rem; }
-    h4 { font-size: 1.3rem; }
-    p, ul { font-size: 1rem; }
-    button.prevButton, button.nextButton { font-size: 1.5rem; padding: 10px; }
-}
+    .slideContainer {
+        flex-wrap: nowrap;
+        width: calc(100vw * 4); /* 4 Slides */
+        transition: transform 0.5s ease-in-out;
+    }
 
-@media (max-width: 430px) {
-    .container { padding: 25px 10px; }
-    h3 { font-size: 1.3rem; }
-    h4 { font-size: 1.1rem; }
-    p, ul { font-size: 0.9rem; }
-    .icon { width: 40px; height: 40px; margin-bottom: 15px; }
+    .slide {
+        flex: 0 0 100vw; /* 1 Card pro View */
+        padding: 1.5rem;
+    }
 
-    /* Buttons unten statt seitlich */
     button.prevButton,
     button.nextButton {
-        top: auto;
-        bottom: 10px;
-        transform: translateY(0);
-        font-size: 1.2rem;
-        padding: 8px 10px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        font-size: 2rem;
+        padding: 12px;
+        cursor: pointer;
+        border-radius: 50%;
+        z-index: 2;
     }
-    .prevButton { left: 25%; }
-    .nextButton { right: 25%; }
 
-    /* Card Breite kleiner für iPhone */
-    .slideContainer {
-        gap: 15px;
-        padding: 0 5%; 
-    }
-
-    .slide {
-        width: 80%; 
-        max-width: 350px;
-        padding: 15px;
-    }
+    .prevButton { left: 10px; }
+    .nextButton { right: 10px; }
 }
+
+/* Mobile Text-Anpassung */
 @media (max-width: 430px) {
-    .slideContainer {
-        gap: 12px;
-        padding: 0 10px; 
-    }
-
     .slide {
-        flex: 0 0 auto;
-        width: 90%; 
-        max-width: 300px; 
-        padding: 15px;
-        margin: 0 auto;
+        padding: 1rem;
     }
+    h3 { font-size: 1.4rem; }
+    h4 { font-size: 1.2rem; }
+    p, ul { font-size: 0.95rem; }
 }
+
+
+
 
 
 
